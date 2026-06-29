@@ -1,10 +1,16 @@
-using IntroML
+import Pkg
 using Documenter
 using PlutoSliderServer
 
 const DOCS_PATH = @__DIR__
 const SRC_PATH = joinpath(DOCS_PATH, "src")
 const NB_PATH = joinpath(dirname(DOCS_PATH), "notebooks")
+
+Pkg.activate(DOCS_PATH)
+Pkg.develop(path=dirname(DOCS_PATH))
+Pkg.instantiate()
+
+using IntroML
 
 function build_notebooks(dir_path, out_path)
     PlutoSliderServer.export_directory(

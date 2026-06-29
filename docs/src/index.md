@@ -6,4 +6,4 @@ CurrentModule = IntroML
 
 Materials for the [Introduction to Machine Learning](https://mlcolab.org/resources/introml-july-2022-workshop-materials) workshop with the [Machine Learning ⇌ Science Colaboratory](https://mlcolab.org/).
 
-- [Supervised Learning: One step at a time](./supervised_learning.html)
+- [Sin func interpolation](./sin_func_interpolation_no_pkg_env_need.html)
