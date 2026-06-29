@@ -2,7 +2,7 @@
 
 julia_version = "1.10.10"
 manifest_format = "2.0"
-project_hash = "bf320a3cf489aa23622bc397287358817b08d668"
+project_hash = "c9afee9a29c62e148469ee0c7045c5873e154bc9"
 
 [[deps.ANSIColoredPrinters]]
 git-tree-sha1 = "574baf8110975760d391c710b6341da1afa48d8c"
@@ -230,11 +230,6 @@ version = "0.2.3"
 [[deps.InteractiveUtils]]
 deps = ["Markdown"]
 uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-
-[[deps.IntroML]]
-path = "/home/mendee/Projects/ActiveProjects/IntroML.jl"
-uuid = "f16ed5a4-c5bd-47e9-8f9b-55da3edf7325"
-version = "0.1.0"
 
 [[deps.IrrationalConstants]]
 git-tree-sha1 = "630b497eafcc20001bba38a4651b327dcfc491d2"
